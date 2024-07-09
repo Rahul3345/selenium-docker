@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-05T16:24:36 GMT" name="vendor-portal" finished-at="2024-07-05T16:24:54 GMT" duration-ms="18204">
+    <groups>
+    </groups>
+    <test started-at="2024-07-05T16:24:36 GMT" name="user-john" finished-at="2024-07-05T16:24:51 GMT" duration-ms="15428">
+      <class name="com.rahul.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@58594a11]" started-at="2024-07-05T16:24:36 GMT" name="setupConfig" finished-at="2024-07-05T16:24:36 GMT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@58594a11]" started-at="2024-07-05T16:24:36 GMT" name="setDriver" finished-at="2024-07-05T16:24:41 GMT" duration-ms="5644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b75c2e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@58594a11]" started-at="2024-07-05T16:24:41 GMT" name="setPageObjects" finished-at="2024-07-05T16:24:42 GMT" depends-on-methods="com.rahul.tests.AbstractTest.setDriver" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@58594a11]" started-at="2024-07-05T16:24:42 GMT" name="loginTest" finished-at="2024-07-05T16:24:45 GMT" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@58594a11]" started-at="2024-07-05T16:24:45 GMT" name="dashboardTest" finished-at="2024-07-05T16:24:50 GMT" depends-on-methods="com.rahul.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="5091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@58594a11]" started-at="2024-07-05T16:24:50 GMT" name="logoutTest" finished-at="2024-07-05T16:24:51 GMT" depends-on-methods="com.rahul.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@58594a11]" started-at="2024-07-05T16:24:51 GMT" name="quitDriver" finished-at="2024-07-05T16:24:51 GMT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.rahul.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-john -->
+    <test started-at="2024-07-05T16:24:36 GMT" name="user-sam" finished-at="2024-07-05T16:24:54 GMT" duration-ms="18022">
+      <class name="com.rahul.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@59e2d8e3]" started-at="2024-07-05T16:24:36 GMT" name="setDriver" finished-at="2024-07-05T16:24:41 GMT" duration-ms="5644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@413f69cc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@59e2d8e3]" started-at="2024-07-05T16:24:41 GMT" name="setPageObjects" finished-at="2024-07-05T16:24:42 GMT" depends-on-methods="com.rahul.tests.AbstractTest.setDriver" duration-ms="587" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@59e2d8e3]" started-at="2024-07-05T16:24:42 GMT" name="loginTest" finished-at="2024-07-05T16:24:45 GMT" duration-ms="2464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@59e2d8e3]" started-at="2024-07-05T16:24:45 GMT" name="dashboardTest" finished-at="2024-07-05T16:24:49 GMT" depends-on-methods="com.rahul.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@59e2d8e3]" started-at="2024-07-05T16:24:49 GMT" name="logoutTest" finished-at="2024-07-05T16:24:54 GMT" depends-on-methods="com.rahul.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="4539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@59e2d8e3]" started-at="2024-07-05T16:24:54 GMT" name="quitDriver" finished-at="2024-07-05T16:24:54 GMT" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.rahul.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-sam -->
+    <test started-at="2024-07-05T16:24:36 GMT" name="user-mike" finished-at="2024-07-05T16:24:54 GMT" duration-ms="18203">
+      <class name="com.rahul.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@4f74980d]" started-at="2024-07-05T16:24:36 GMT" name="setDriver" finished-at="2024-07-05T16:24:41 GMT" duration-ms="5644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f53a5dc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@4f74980d]" started-at="2024-07-05T16:24:41 GMT" name="setPageObjects" finished-at="2024-07-05T16:24:42 GMT" depends-on-methods="com.rahul.tests.AbstractTest.setDriver" duration-ms="586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@4f74980d]" started-at="2024-07-05T16:24:42 GMT" name="loginTest" finished-at="2024-07-05T16:24:45 GMT" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@4f74980d]" started-at="2024-07-05T16:24:45 GMT" name="dashboardTest" finished-at="2024-07-05T16:24:50 GMT" depends-on-methods="com.rahul.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="5631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@4f74980d]" started-at="2024-07-05T16:24:50 GMT" name="logoutTest" finished-at="2024-07-05T16:24:54 GMT" depends-on-methods="com.rahul.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="3569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.rahul.tests.vendorportal.VendorPortalTest@4f74980d]" started-at="2024-07-05T16:24:54 GMT" name="quitDriver" finished-at="2024-07-05T16:24:54 GMT" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.rahul.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-mike -->
+  </suite> <!-- vendor-portal -->
+</testng-results>
