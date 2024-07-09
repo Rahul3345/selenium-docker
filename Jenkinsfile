@@ -12,7 +12,7 @@ pipeline{
     stage('Build image')
     {
           steps{
-        bat "docker build -t=rahul111232/selenium"
+        bat "docker build -t=rahul111232/selenium ."
     }
     }
      stage('Push Image')
